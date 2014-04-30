@@ -1,0 +1,153 @@
+/*============================== RESPONSIVE LAYOUTS ==================================*/
+@media only screen and (max-width: 1340px) {
+	body{min-width: 1024px;}
+	.main{width: 1000px;}
+	.sf-menu{
+		padding-right: 0px;
+	}
+	
+	.owl-theme .owl-dots .owl-dot{width: 83px; margin: 0 20px 0 19px;}
+	
+	.job_step{width: 264px;}
+	.job_step_mid{margin: 0 75px;}
+	.job_steps{width: 810px;background: url(../images/stage_stripe_tab.png) 0 0 no-repeat;}
+	.job_steps_inner{background: url(../images/stage_stripe_h_tab.png) 0 0 no-repeat;}
+
+	.contact_col_sm,
+	.contact_col1 {width: 320px;}
+	.contact_col_sm{margin-right: 30px;}
+	
+	[class^="simulator_dots"]{
+		width: 20px;
+		height: 20px;
+	}
+	.training_img{width: 40%;padding-top: 100px;}
+	.training_img img{max-width: 100%;height: auto;vertical-align: middle;}
+
+	.training_item_inner{padding-left: 90px;padding-right: 20px;}
+	.btn{padding-left: 16px;padding-right: 16px;}
+
+	.simulator_img{
+		-moz-transform: scale(0.7);
+		-webkit-transform: scale(0.7);
+		-o-transform: scale(0.7);
+		-ms-transform: scale(0.7);
+		transform: scale(0.7);
+	}
+
+	.simulation_btns{padding: 80px 0 0;}
+	.simulation_btns>div{float: none;text-align: center;}
+	.simulation_btns br{display: none;}
+	.simulation_btns .btn2{margin: 0 10px;padding: 10px 40px 9px 12px;}
+}
+
+@media only screen and (max-width: 995px) {
+	 body{min-width:768px;}
+	 .main{width: 748px;}
+
+	 #nav_icon{
+	 	min-width: 29px;
+	 	padding: 4px 65px 3px 50px;
+	 	right: 0px;
+	 	top: 0px;
+	 	cursor: pointer;
+	 	color: #fff;
+	 	background: url(../images/menu_icon.png) 10px 50% no-repeat #5b6e7f;
+	 }
+	 .sf-menu{display: none;position: absolute;right: 0;top: 31px;background-color: #8a93a0;}
+	 .sf-menu li{float: none;}
+	 .menu_link{padding-left: 15px;padding-right: 15px;}
+
+ 	#homepage{height: 395px;-webkit-background-size: cover;background-size: cover;}
+ 
+	.training_img,
+	.vertical_stripe_box,
+	.owl-dots{display: none !important;}
+	
+	.training_content{
+		position: static;
+		height: auto !important;
+	}
+	#vertical_stripe_box{display: none;}
+	.training_content{width: auto;}
+	.training_content_item{display: block;position: static;width: auto;float: none;padding: 0 0px;height: auto !important;}
+	.training_item_inner{padding: 25px 0;}
+
+	#training{background: #dcdde2;padding-bottom: 50px;}
+
+	#assessment{-webkit-background-size: cover;background-size: cover;height: 500px;}
+	
+	.approach_carousel{padding: 40px 0;}
+	.owl-theme .owl-controls .owl-nav div{}
+	.owl-nav{top: 100px;}
+	.owl-theme .owl-controls .owl-nav .owl-next{right: 50px;}
+	.owl-theme .owl-controls .owl-nav .owl-prev{left: 50px;}
+
+	.job_step_mid {margin: 0 35px;}
+	.job_step{width: 204px;font-size: 16px;}
+	.job_step:before{
+		display: block;
+		width: 60px;
+		height: 60px;
+		margin: 0 auto 20px;
+		color: #fff;
+		background-color: #fe400d;
+		-webkit-border-radius: 250px;
+		-moz-border-radius: 250px;
+		border-radius: 250px;
+		content:counter(div);
+      	counter-increment:div;
+      	font-size: 30px;
+      	line-height: 60px;
+	}
+	.job_steps{display: none;}
+	.job_step_wrap{padding: 0 0 20px;counter-reset:div;}
+	.t_ind4{margin-bottom: 30px;}
+
+	.contact_col1{width: auto;float: none;margin-bottom: 30px;}
+}
+
+@media only screen and (max-width: 767px) {
+	body{min-width:420px;}
+	.main{width: 400px;}
+
+ 	#homepage{height: 260px;}
+ 	.homepage_inner{padding-top: 80px;}
+
+ 	.approach_carousel{padding-left: 40px;padding-right: 40px;}
+ 	.owl-theme .owl-controls .owl-nav .owl-prev{left: 0;}
+ 	.owl-theme .owl-controls .owl-nav .owl-next{right: 0;}
+ 	.owl-carousel{width: auto;}
+ 	.approach_article{width: auto;}
+
+ 	.simulator_img{padding: 30px 0 0;}
+ 	.simulator_img,
+ 	.simulator_img img{width: 100%;height: auto;}
+ 	.simulator_img {
+		-moz-transform: scale(1);
+		-webkit-transform: scale(1);
+		-o-transform: scale(1);
+		-ms-transform: scale(1);
+		transform: scale(1);
+	}
+	.simulation_btns{margin: -40px 0 0;}
+	.simulation_btns .btn2{margin: 0 50px 10px;display: block;padding-top: 13px;padding-bottom: 13px;}
+	[class^="simulator_dots"]{display: none;}
+
+	.job_step{width: auto;margin-bottom: 30px;}
+	.contact_col_sm{float: none;width: auto;margin: 0;}
+	.t_ind5 {margin-bottom: 30px;}
+
+	.home_caption .title1{font-size: 24px;line-height: 1em;}
+	.home_caption .title4{font-size: 12px;}
+
+	.assessment_text{margin-top: 20px;float: none;background: rgba(255,255,255,0.9);}
+	.assessment_text .title3{color: #5b6e7f;}
+}
+
+@media only screen and (max-width: 479px) {
+ 	body{min-width:300px;}
+ 	.main{width: 280px;}
+ 	.training_btns a{float: none;margin: 0 0 10px;text-align: center;}
+ 	.owl-nav{top: 180px;}
+}

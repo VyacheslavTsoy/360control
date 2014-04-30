@@ -1,0 +1,68 @@
+nav{
+	position:relative;
+	margin: 0px 0 0 0;
+	min-height: 31px;
+	background-color: #8a93a0;
+}
+.sf-menu{
+	padding-right: 178px;
+	display: block;
+}
+.sf-menu ul {position:absolute;top:-999px; display:none;/* left offset of submenus need to match (see below) */}
+.sf-menu ul li {width:100%}
+.sf-menu li {float:left;position:relative}
+
+.menu_link{
+  display:block;
+  position:relative;
+  font-size: 12px;
+  line-height: 16px;
+  color:#fff;
+  padding: 8px 23px 7px;
+}
+.menu_link:after{
+	display: block;
+	height: 3px;
+	width: 100%;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	z-index: 99;
+	content: "";
+}
+.current .menu_link:after{
+	background-color: #5b6e7f;
+}
+.menu_link:hover,
+li.sfHover .menu_link{
+  background-color: #5b6e7f;
+  color: #fff;
+}
+
+.current .menu_link{
+	background-color: #fff;
+	color: #4d4d4d;
+}
+
+.menu_item{
+  
+}
+
+/*================================>> 2 Level <<========================================*/
+.sub_menu,
+.li.sfHover>.sub_menu{
+	left:0;top:50px;
+	width: px;
+	padding:0 0 0 0;
+	z-index:99;
+}
+.sub_menu_item{}
+.sub_menu_link{}
+.sub_menu_link:hover,
+li.sfHover li.sfHover .sub_menu_link{}
+
+/*================================>> 3 Level <<========================================*/
+.sf-menu li li ul{left:0;top:0px;width: px;padding:0 0 0 0;z-index:99}
+.sf-menu li li li{}
+.sf-menu li li li a{}
+.sf-menu li li li a:hover{}
